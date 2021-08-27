@@ -19,13 +19,13 @@ And I wasn't using the account file for anything, so I thought of a way to make 
 
 So I thought, I'm going to use 2 chained for to scan the general ledger table using the account numbers from the accounts table, like this.
 
-```list_account_sum = []
+``` list_account_sum = []
 for account in chart_accounts_df['account']:
     sum = 0
     for index, row in general_ledger_df_sorted.iterrows():
         if row['account'].startswith(account):
             sum += float(row['value'])
-    list_account_sum.append(sum)```
+    list_account_sum.append(sum) ```
 	
 
 As I hope, it worked, but I thought I could improve the look of the solution a little, make it cleaner and more reusable.
@@ -37,7 +37,7 @@ method to apply my function to each element of my list of accounts and return me
     for index, row in general_ledger_df_sorted.iterrows():
         if row['account'].startswith(account_number):
             sum += row['value']
-    return float(sum)```
+    return float(sum) ```
 	
 `list_sum_using_map = list(map(branch_sum, chart_accounts_df['account']))`
 
