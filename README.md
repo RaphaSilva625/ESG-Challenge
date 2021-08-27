@@ -1,6 +1,6 @@
 ## ESG Challenge
 
-#### How I thought to solve this challenge
+### How I thought to solve this challenge
 
 
 First I tried to solve it using some pandas method like groupby 
@@ -49,10 +49,10 @@ After processing, I created a copy of my original accounts dataframe and added a
 Exported as a new file in csv format.
 
 
-Ps.: 
+#### Ps.: 
 
-*I had a bit of difficulty understanding what was passed, I reread it a few times to be sure what was being asked.
-*I'm pretty sure we could cut the processing time using a more complex solution, but due to the turnaround time, this is all I managed to develop, sorry about that.
-*I've never used automated tests in python, this is definitely one of my weaknesses, I've always done manual or tabletop tests, this is why my unit test is pretty weak.
-*it's been a while since i had so much fun working out a solution, thanks for that.
-*Sorry for my english, i'm trying
+* I had a bit of difficulty understanding what was passed, I reread it a few times to be sure what was being asked.
+* I'm pretty sure we could cut the processing time using a more complex solution, but due to the turnaround time, this is all I managed to develop, sorry about that.
+* I've never used automated tests in python, this is definitely one of my weaknesses, I've always done manual or tabletop tests, this is why my unit test is pretty weak.
+* it's been a while since i had so much fun working out a solution, thanks for that.
+* Sorry for my english, i'm trying
