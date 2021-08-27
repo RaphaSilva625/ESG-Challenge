@@ -48,6 +48,16 @@ def branch_sum(account_number: str) -> float:
 After processing, I created a copy of my original accounts dataframe and added a new column called value, which would be the sum of all the respective "branches" of my main account.
 Exported as a new file in csv format.
 
+### To run the project ...
+
+Into the project folder, open a CLI and use:
+
+pip3 install requeriments.txt
+
+This command will install all libraries used in the project.
+After that, u can run the project with:
+
+python3 esg_challenge.py
 
 #### Ps.: 
 
